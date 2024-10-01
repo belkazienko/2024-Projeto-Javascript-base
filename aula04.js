@@ -49,3 +49,26 @@ function multiplicacao (n1 = 1, n2 = 1){
 }
 
 imprimeTexto(multiplicacao(2, 10))
+
+// Expressão de função
+
+const constanteSoma = function (n1, n2){ return n1 + n2}
+
+imprimeTexto(constanteSoma(17,25))
+
+// Função flecha 
+
+const apresentaFlecha = (nome) => `Meu nome é ${nome} `
+
+imprimeTexto(apresentaFlecha(`Cibelly`))
+
+const somaNumeroPequenos = (nu1, nu2) => {
+    if(nul <= 10 && nu2 <= 10){
+        return nu1 + nu2
+    }else{
+        return nu1 `Seu número é maior do que 10`
+    }
+}
+
+imprimeTexto(somaNumeroPequenos(2,11))
+imprimeTexto(somaNumeroPequenos(2,4))
